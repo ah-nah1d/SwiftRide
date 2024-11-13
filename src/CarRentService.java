@@ -5,9 +5,9 @@ public class CarRentService {
     private List<Car> cars;
     private List<Rent> rents;
 
-    public CarRentService(List<Car> cars, List<Rent> rents) {
-        this.cars = cars;
-        this.rents = rents;
+    public CarRentService() {
+        this.cars = new ArrayList<>();
+        this.rents = new ArrayList<>();
     }
     public void addCar(Car car){
         cars.add(car);
